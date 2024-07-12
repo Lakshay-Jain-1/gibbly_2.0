@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const { type } = require("os");
 
 mongoose
-  .connect("mongodb://localhost:27017/gibblybackend")
+  .connect("mongodb://0.0.0.0:27017/gibblybackend")
   .then(() => {
     console.log("Database is connected ");
   })
